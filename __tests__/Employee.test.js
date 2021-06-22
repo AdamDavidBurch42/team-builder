@@ -9,7 +9,8 @@ describe('Employee', () => {
             const employee = new Employee("Adam", 1, "rewop360@gmail.com");
             expect(employee.getName() === "Adam");
             expect(employee.getId() === 1);
-            expect(employee.getEmail() === "rewop360@gmail.com")
+            expect(employee.getEmail() === "rewop360@gmail.com");
+            expect(employee.getRole() === "Employee");
         }))
     })
 });
